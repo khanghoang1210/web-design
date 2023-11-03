@@ -112,49 +112,54 @@
     <header>
         <img width="100%" src="../images/images_Lab02/car3.jpg" alt="">
     </header>
-    <br>
-    <table width="100%" border="0">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-top: -4px;">
         <tr>
-            <td width="15%">
+            <td width="20%">
                 <nav>
-                    <table border="1" cellspacing="0">
-                        <tbody style="color: #009; border-color: #009;">
-                            <tr>
-                                <td>Trang Chủ</td>
-                            </tr>
-                            <tr>
-                                <td>Giới Thiệu Sản Phẩm</td>
-                            </tr>
-                            <tr>
-                                <td>Các đại lý</td>
-                            </tr>
-                            <tr>
-                                <td>Dịch vụ</td>
-                            </tr>
-                            <tr>
-                                <td>Hợp tác</td>
-                            </tr>
-                            <tr>
-                                <td>Góp ý</td>
-                            </tr>
-                            <tr>
-                                <td>Quảng cáo</td>
-                            </tr>
-                        </tbody>
+                    <table border="1" cellspacing="0"
+                        style="color: #009; border-color: #009;margin-top: -80px; width: 100%;">
+                        <tr>
+                            <td>Trang Chủ</td>
+                        </tr>
+                        <tr>
+                            <td>Giới thiệu sản phẩm</td>
+                        </tr>
+                        <tr>
+                            <td>Các đại lý</td>
+                        </tr>
+                        <tr>
+                            <td>Dịch vụ</td>
+                        </tr>
+                        <tr>
+                            <td>Hợp tác</td>
+                        </tr>
+                        <tr>
+                            <td>Góp ý</td>
+                        </tr>
+                        <tr>
+                            <td>Quảng cáo</td>
+                        </tr>
                     </table>
                 </nav>
             </td>
 
-            <td width="5%">
+            <td>
             </td>
             <td>
                 <section align="center">
+                    <header width="100%" style="background-size: 100%;">
+                        <table width="100%">
+                            <tr>
+                                <td style="color: red; font-weight: bold;background-color: #d3d3d3;">
+                                    HỘP THƯ GÓP Ý</td>
+                            </tr>
+                        </table>
+                    </header>
 
-                    <font style="color: red; font-weight: bold;">HỘP THƯ GÓP Ý</font>
 
                     <article>
                         <form method="GET">
-                            <table width="100%">
+                            <table width="100%;">
                                 <tr>
                                     <td align="right" width="15%">Họ tên</td>
                                     <td align="left"><input type="text" name="HoTen"></td>
@@ -218,7 +223,7 @@
                         <table border="1" cellspacing="0" cellpadding="2"
                             style="font-weight: bold; color: rgb(81, 49, 7); background-color: rgb(193, 193, 107); margin-top: 0px;"
                             width="100%">
-                            <tbody style="color: #009; border-color: #009;">
+                            <tbody style="color: rgb(153, 145, 0); border-color: rgb(164, 192, 92);">
                                 <tr>
                                     <td>Quảng cáo</td>
                                 </tr>
@@ -244,13 +249,15 @@
                         </table>
                     </nav>
                 </td>
-                <td>
+                <td width="50%">
                     <section align="center">
                         <header>
                             <table width="100%">
                                 <tr
-                                    style="background-image:url(../images/images_Lab02/Background.jpg);background-size: 100%;">
-                                    <td width="100%"><b>Đăng ký giấy phép lái xe ô tô </b></td>
+                                    style="background-image:url(../images/images_Lab02/Background.jpg);background-size: 100%; margin-top: -90px;">
+                                    <td style="font-size: xx-large; color: red;"><b>Đăng ký giấy phép
+                                            lái xe ô tô </b>
+                                    </td>
                                 </tr>
                             </table>
 
@@ -258,30 +265,31 @@
 
                         <article>
                             <form method="get" name="Register form" enctype="multipart/form-data">
-                                <table width="100%" border="0" cellspacing="5" cellpadding="0"
+                                <table align="center" width="100%" border="0" cellspacing="5" cellpadding="0"
                                     style="color: rgb(0, 150, 255);">
                                     <tr>
-                                        <td align="right" style="background-color: rgb(240, 240, 240);">Họ tên</td>
-                                        <td><input name="txtHoTen" type="text"></td>
-                                        <td rowspan="5" style="text-align: left;">Load hinh<input type="file"
-                                                name="filehinhxe">
+                                        <td width="30%" align="right" style="background-color: rgb(240, 240, 240);">Họ
+                                            tên</td>
+                                        <td align="left"><input name="txtHoTen" type="text"></td>
+                                        <td width="-4px" rowspan="5" style="text-align: left;">Load hinh<input
+                                                type="file" name="filehinhxe">
                                         </td>
                                     </tr>
                                     <tr>
                                         <td align="right" style="background-color: rgb(240, 240, 240);">Số CMND</td>
-                                        <td><input name="txtHoTen" type="text"></td>
+                                        <td align="left"><input name="txtHoTen" type="text"></td>
                                     </tr>
                                     <tr>
                                         <td align="right" style="background-color: rgb(240, 240, 240);">Hộ khẩu</td>
-                                        <td><select name="listHoKhau">
-                                                <option value="0">TP Ho Chi Minh</option>
+                                        <td align="left"><select name="listHoKhau">
+                                                <option value="0">TP Hồ Chí Minh</option>
                                                 <option value="1">Hà Nội</option>
                                                 <option value="2">Đà Nẵng</option>
                                             </select></td>
                                     </tr>
                                     <tr>
                                         <td align="right" style="background-color: rgb(240, 240, 240);">Hình xe</td>
-                                        <td>
+                                        <td align="left">
                                             <select name="listHoKhau">
                                                 <option value="0">Toyota</option>
                                                 <option value="1">Suzuki</option>
@@ -290,8 +298,8 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td style="background-color: rgb(240, 240, 240);">&nbsp;</td>
-                                        <td style="background-color: rgb(240, 240, 240);">
+                                        <td align="left" style="background-color: rgb(240, 240, 240);">&nbsp;</td>
+                                        <td align="left" style="background-color: rgb(240, 240, 240);">
                                             <input name="btnGui" type="button" value="Them">
                                             <input name="btnXoa" type="button" value="Xoa">
                                         </td>
