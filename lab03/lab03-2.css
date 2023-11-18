@@ -1,0 +1,54 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    color: #000;
+    background: #fff;
+}
+
+#body {
+    width: 960px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+#header {
+    padding: 10px;
+    background: #ddd;
+}
+
+
+#content-1 {
+    float: left;
+    width: 220px;
+    padding: 10px;
+    background: #bfb;
+}
+
+
+#content-2 {
+    float: right;
+    width: 720px;
+
+}
+
+#content-2-1 {
+    float: left;
+    width: 330px;
+    padding: 15px;
+    background: rgb(252, 252, 252);
+}
+
+#content-2-2 {
+    float: right;
+    width: 330px;
+    padding: 15px;
+    background: rgb(249, 255, 187);
+}
+
+#footer {
+    text-align: center;
+    background: #000;
+    color: rgb(223, 223, 58);
+    clear: both;
+}

@@ -1,0 +1,66 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    color: #272323;
+    background: #a7a09a;
+}
+
+#wrap {
+    width: 750px;
+    margin: 0 auto;
+    background: rgb(166, 166, 177);
+    ;
+
+}
+
+#header {
+    background: #d6cec6;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+
+
+#nav {
+    background: #9b9896;
+    padding: 5px 10px;
+
+}
+
+#main {
+    background: #ffffff;
+    float: right;
+    width: 480px;
+    padding: 10px;
+    height: 35%;
+}
+
+#main h3,
+h2 {
+    text-align: center;
+}
+
+#sidebar {
+    background: #7f7b79;
+    float: left;
+    width: 228px;
+    padding: 10px;
+    position: absolute;
+    height: 36%;
+
+}
+
+#footer {
+    background: #9b9896;
+    clear: both;
+    padding: 5px 10px;
+}
+
+#footer p {
+    margin: 0;
+}
+
+div {
+    border: 1px solid #000000;
+}

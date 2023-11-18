@@ -1,0 +1,31 @@
+ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 20px 25px 10px 10px;
+    text-align: center;
+    overflow: hidden;
+    background-image: url("../images/images_Lab03/menu_036_bg.jpg");
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(95, 161, 219);
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    height: 4%;
+}
+
+li a:hover {
+    background-image: url("../images/images_Lab03/menu_036_c.jpg");
+}
+
+#nav {
+    height: 80px;
+    width: 100%;
+}
