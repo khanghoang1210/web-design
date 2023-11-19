@@ -1,0 +1,85 @@
+ul#horiznav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    height: 32px;
+    position: absolute;
+}
+
+#horiznav li {
+    float: left;
+    width: 150px;
+    position: relative;
+}
+
+.item {
+    display: block;
+    width: 150px;
+    line-height: 30px;
+    text-align: center;
+    color: #333333;
+    text-decoration: none;
+    background-color: #ff0000;
+    border: 1px solid #333333
+}
+
+.sub-menu-item {
+    display: block;
+    width: 150px;
+    line-height: 30px;
+    text-align: center;
+    color: #333333;
+    text-decoration: none;
+    background-color: #00cccc;
+    border: 1px solid #333333
+}
+
+.menu-item {
+    display: block;
+    width: 150px;
+    line-height: 30px;
+    text-align: center;
+    color: #333333;
+    text-decoration: none;
+    background-color: #0099ff;
+    border: 1px solid #333333
+}
+
+.item:hover,
+.menu-item:hover,
+.sub-menu-item:hover {
+    color: white
+}
+
+#menu {
+    display: none;
+    position: relative;
+    list-style-type: none;
+    float: left;
+    padding: 0;
+}
+
+.sub-menu {
+    position: absolute;
+    left: 150px;
+    top: 0;
+    float: left;
+    display: none;
+    list-style-type: none;
+    padding: 0;
+}
+
+#horiznav li:hover>ul {
+    display: block;
+    background: #333333;
+}
+
+.sub-menu {
+    display: none;
+    background: #333333;
+}
+
+#menu li:hover>ul {
+    display: block;
+    background: #333333;
+}
