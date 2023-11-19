@@ -9,6 +9,7 @@ body {
     padding: 0;
     list-style-type: none;
     text-align: left;
+
 }
 
 #menu li {
@@ -26,16 +27,31 @@ body {
     display: block;
 }
 
-#menu li:hover {
+#menu li:hover,
+#menu li:hover .sub-menu {
     background: #111010;
+    display: block;
+}
+
+#menu li:hover .sub-menu {
+    background: #1e1e78;
+    display: block;
 }
 
 #menu ul li {
     position: relative;
+
 }
 
 #menu .sub-menu {
     position: absolute;
     left: 250px;
     top: 0;
+    float: left;
+    overflow: hidden;
+    display: none;
+}
+
+#menu ul li i {
+    float: right;
 }
