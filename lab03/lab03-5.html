@@ -4,25 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Web design - Lab 03-5</title>
     <link rel="stylesheet" href="./lab03-5.css">
 </head>
 
 <body>
-    <ul>
-        <li><a href="#">Trang chủ</a></li>
-        <li class="dropdown">
-            <a href="#" class="dropbtn">Kinh tế</a>
-            <div class="dropdown-content">
-                <a href="#">Tài chính</a>
-                <a href="#">Chứng khoán</a>
-                <a href="#">Doanh nghiệp</a>
-                <a href="#">Doanh nhân</a>
-            </div>
+    <ul id="horiznav">
+        <li><a class="item" href="#">Trang chủ</a></li>
+        <li><a class="item" href="#">Kinh tế</a>
+            <ul id="menu">
+                <li><a class="menu-item" href="">Tài chính</a></li>
+                <li><a class="menu-item" href="">Chứng khoán</a></li>
+                <li><a class="menu-item" href="">Doanh nghiệp</a>
+                </li>
+                <li><a class="menu-item" href="">Doanh nhân</a></li>
+            </ul>
         </li>
-        <li><a href="#">Xã hội</a></li>
-        <li><a href="#">Văn hóa</a></li>
-        <li><a href="#">Thể thao</a></li>
+        <li><a class="item" href="#">Xã hội </a></li>
+        <li><a class="item" href="#">Văn hóa</a></li>
+        <li><a class="item" href="#">Thể thao</a></li>
     </ul>
 </body>
 

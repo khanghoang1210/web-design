@@ -17,14 +17,12 @@ body {
     background: #ddd;
 }
 
-
 #content-1 {
     float: left;
     width: 220px;
     padding: 10px;
     background: #bfb;
 }
-
 
 #content-2 {
     float: right;
