@@ -1,0 +1,76 @@
+html {
+    background-image: url("../images/images_Lab04/images2/bg.jpg");
+    background-size: 100% 300px;
+    background-repeat: no-repeat;
+
+}
+
+div#logo img {
+    height: 80px;
+    max-height: 80px;
+    width: auto;
+}
+
+div#container {
+    display: table;
+}
+
+div#rows {
+    display: flex;
+    vertical-align: top;
+    margin-top: 0px;
+}
+
+div#left {
+    display: table-cell;
+    width: 21%;
+    padding-top: 0%;
+    margin: 0%;
+    margin-left: 0%;
+}
+
+ul {
+    margin-top: -20px;
+}
+
+li {
+    background-image: url("../images/images_Lab04/images2/links-bg.jpg");
+    color: aliceblue;
+    background-size: 100%;
+    list-style-type: none;
+    width: 260px;
+    text-align: center;
+    height: 30px;
+}
+
+div#right {
+    display: table-cell;
+    background-image: url("../images/images_Lab04/images2/header.png");
+    width: 710px;
+    background-size: 570px;
+    margin-top: -90px;
+    background-repeat: no-repeat;
+    float: right;
+    text-align: center;
+    padding-top: 0%;
+}
+
+div#right p {
+    display: block;
+    font-size: x-large;
+    text-align: center;
+    margin-top: 130px;
+    background-color: rgba(250, 235, 215, 0.781);
+    background-position: 30px;
+    width: 400px;
+    margin-left: 80px;
+}
+
+div#left a {
+    float: right;
+}
+
+div#content2,
+div#content3 {
+    margin-left: 40px;
+}
