@@ -29,11 +29,11 @@ div#left {
     margin-left: 0%;
 }
 
-ul {
+div#content1 ul {
     margin-top: -20px;
 }
 
-li {
+div#content1 ul li {
     background-image: url("../images/images_Lab04/images2/links-bg.jpg");
     color: aliceblue;
     background-size: 100%;
@@ -52,10 +52,9 @@ div#right {
     background-repeat: no-repeat;
     float: right;
     text-align: center;
-    padding-top: 0%;
 }
 
-div#right p {
+div#banner {
     display: block;
     font-size: x-large;
     text-align: center;
@@ -73,4 +72,77 @@ div#left a {
 div#content2,
 div#content3 {
     margin-left: 40px;
+}
+
+div#header p {
+    float: left;
+    margin-top: 30px;
+    font-size: x-large;
+}
+
+div#header img {
+    padding-top: 30px;
+    float: left;
+    margin-left: 25px;
+}
+
+div#content {
+    margin-left: 25px;
+}
+
+div#content img {
+    float: left;
+
+}
+
+p#content1 {
+    margin-top: 100px;
+
+}
+
+div#content p {
+    text-align: left;
+    font-size: x-large;
+}
+
+div#content2-left {
+    text-align: left;
+    font-size: x-large;
+    margin-left: -50px;
+    width: 70%;
+}
+
+div#content2-right {
+    width: 80%;
+    display: table-cell;
+    float: right;
+    width: 240px;
+    margin-top: -150px;
+    font-size: large;
+    text-align: left;
+}
+
+hr {
+    border-top: 1px dotted red;
+    width: 100%;
+}
+
+div#footer>ul {
+    height: 350px;
+    width: 90%;
+    margin-left: 0px;
+    padding-left: 0px;
+    border-top: 10px solid blue;
+}
+
+div#footer>ul>li {
+    text-align: center;
+    background-color: rgba(20, 20, 20, 0.745);
+    padding: 10px 10px;
+    text-decoration: none;
+    height: 10%;
+    list-style-type: none;
+    width: 91px;
+    float: left;
+    color: aliceblue;
 }
