@@ -2,13 +2,14 @@ html {
     background-image: url("../images/images_Lab04/images2/bg.jpg");
     background-size: 100% 300px;
     background-repeat: no-repeat;
-
+    font-family: "Arial", Times, sans-serif;
 }
 
 div#logo img {
     height: 80px;
     max-height: 80px;
     width: auto;
+    margin-left: 50px;
 }
 
 div#container {
@@ -18,15 +19,16 @@ div#container {
 div#rows {
     display: flex;
     vertical-align: top;
-    margin-top: 0px;
+    margin-top: 5px;
 }
 
 div#left {
     display: table-cell;
-    width: 21%;
+    width: 300px;
     padding-top: 0%;
     margin: 0%;
     margin-left: 0%;
+    border-right: 2px dotted gray;
 }
 
 div#content1 ul {
@@ -40,18 +42,20 @@ div#content1 ul li {
     list-style-type: none;
     width: 260px;
     text-align: center;
-    height: 30px;
+    height: 33px;
 }
 
 div#right {
     display: table-cell;
     background-image: url("../images/images_Lab04/images2/header.png");
-    width: 710px;
-    background-size: 570px;
+    width: 600px;
+    background-size: 600px;
     margin-top: -90px;
+    margin-left: 0px;
     background-repeat: no-repeat;
     float: right;
     text-align: center;
+    border-right: 2px solid gray;
 }
 
 div#banner {
@@ -67,6 +71,7 @@ div#banner {
 
 div#left a {
     float: right;
+    margin-right: 10px;
 }
 
 div#content2,
@@ -90,9 +95,9 @@ div#content {
     margin-left: 25px;
 }
 
-div#content img {
+div#content p img {
+    width: 220px;
     float: left;
-
 }
 
 p#content1 {
@@ -102,12 +107,12 @@ p#content1 {
 
 div#content p {
     text-align: left;
-    font-size: x-large;
+    font-size: 1.2rem;
 }
 
 div#content2-left {
     text-align: left;
-    font-size: x-large;
+    font-size: 1.2rem;
     margin-left: -50px;
     width: 70%;
 }
@@ -116,9 +121,9 @@ div#content2-right {
     width: 80%;
     display: table-cell;
     float: right;
-    width: 240px;
-    margin-top: -150px;
-    font-size: large;
+    width: 220px;
+    margin-top: -200px;
+    font-size: 1.1rem;
     text-align: left;
 }
 
@@ -129,7 +134,7 @@ hr {
 
 div#footer>ul {
     height: 350px;
-    width: 90%;
+    width: 100%;
     margin-left: 0px;
     padding-left: 0px;
     border-top: 10px solid blue;
@@ -139,10 +144,77 @@ div#footer>ul>li {
     text-align: center;
     background-color: rgba(20, 20, 20, 0.745);
     padding: 10px 10px;
-    text-decoration: none;
     height: 10%;
     list-style-type: none;
-    width: 91px;
     float: left;
     color: aliceblue;
+    width: 82px;
+}
+
+
+div#img-cap:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+
+}
+
+img#img-cons:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.red {
+    color: rgb(167, 63, 112);
+}
+
+.font {
+    font-family: 'Lucida Handwriting', Courier, cursive;
+    font-size: 0.9rem;
 }
