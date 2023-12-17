@@ -2,7 +2,7 @@ html {
     background-image: url("../images/images_Lab04/images2/bg.jpg");
     background-size: 100% 300px;
     background-repeat: no-repeat;
-    font-family: "Arial", Times, sans-serif;
+    font-family: sans-serif
 }
 
 div#logo img {
@@ -28,7 +28,7 @@ div#left {
     padding-top: 0%;
     margin: 0%;
     margin-left: 0%;
-    border-right: 2px dotted gray;
+    border-right: 3px dotted gray;
 }
 
 div#content1 ul {
@@ -55,7 +55,7 @@ div#right {
     background-repeat: no-repeat;
     float: right;
     text-align: center;
-    border-right: 2px solid gray;
+    border-right: 3px solid gray;
 }
 
 div#banner {
@@ -212,9 +212,4 @@ img#img-cons:hover {
 
 .red {
     color: rgb(167, 63, 112);
-}
-
-.font {
-    font-family: 'Lucida Handwriting', Courier, cursive;
-    font-size: 0.9rem;
 }
