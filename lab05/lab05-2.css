@@ -1,0 +1,7 @@
+.hiddenTD {
+    visibility: hidden;
+}
+
+.visibleTD {
+    visibility: visible;
+}
