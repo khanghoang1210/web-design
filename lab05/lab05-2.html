@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Web Design - Lab 05</title>
+    <script type="text/javascript" src="./lab05.2.js"></script>
 </head>
 
 <body>
@@ -21,31 +22,34 @@
             <td>1</td>
             <td>CPU</td>
             <td>10</td>
-            <td><input type="number" value="0" disabled></td>
-            <td>100</td>
-            <td><input type="checkbox" id="buy1"></td>
+            <td><input type="number" value="0" id="quantity"></td>
+            <td id="price">100</td>
+            <td><input type="checkbox" id="checkbox"
+                    onclick="document.getElementById('quantity').disabled=!this.checked;"></td>
         </tr>
         <tr>
             <td>2</td>
             <td>RAM</td>
             <td>10</td>
-            <td><input type="number" value="0" disabled></td>
-            <td>50</td>
-            <td><input type="checkbox" id="buy2"></td>>
+            <td><input id="quantity1" type="number" value="0" disabled></td>
+            <td id="price1">50</td>
+            <td><input type="checkbox" id="checkbox1"
+                    onclick="document.getElementById('quantity1').disabled=!this.checked;"></td>>
         </tr>
         <tr>
             <td>3</td>
             <td>HDD</td>
             <td>10</td>
-            <td><input type="number" value="0" disabled></td>
-            <td>80</td>
-            <td><input type="checkbox" id="buy3"></td>>
+            <td><input id="quantity2" type="number" value="0" disabled></td>
+            <td id="price2">80</td>
+            <td><input type="checkbox" id="checkbox2"
+                    onclick="document.getElementById('quantity2').disabled=!this.checked;"></td>>
         </tr>
         <tr>
             <td></td>
-            <td><input type="button" value="OK"></td>
+            <td><input type="button" value="OK" onclick="calcTotal()"></td>
             <td style="text-align: right;" colspan="2">Tổng:</td>
-            <td></td>
+            <td id="total"></td>
             <td><input type="checkbox" id="vat">VAT</td>
         </tr>
 </body>
